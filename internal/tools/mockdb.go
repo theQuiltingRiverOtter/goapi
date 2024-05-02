@@ -2,6 +2,8 @@ package tools
 
 import "time"
 
+type mockDB struct{}
+
 var mockLoginDetails = map[string]LoginDetails{
 	"indy": {
 		AuthToken: "123ABC",
